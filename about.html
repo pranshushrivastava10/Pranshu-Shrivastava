@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <title>About | Pranshu Shrivastava</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .logo {
+      height: 50px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    .org {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,21 +28,42 @@
       <a href="contact.html">Contact</a>
     </nav>
   </header>
+
   <div class="container">
     <h2>Experience</h2>
-    <p><strong>Aster DM Healthcare (Dec 2023 – Present)</strong></p>
-    <ul>
-      <li>Created Power BI dashboards using Google Sheets data</li>
-      <li>Automated reporting using Power Automate</li>
-      <li>Implemented row-level security for privacy</li>
-    </ul>
-    <p><strong>Larsen & Toubro Infotech (May 2019 – Feb 2022)</strong></p>
-    <ul>
-      <li>Built SQL-based reporting dashboards</li>
-      <li>Automated KPI reports, saving 10+ hours/week</li>
-    </ul>
+
+    <div class="org">
+      <img src="images/aster-logo.png" alt="Aster Logo" class="logo">
+      <div>
+        <strong>Aster DM Healthcare (Dec 2023 – Present)</strong>
+        <ul>
+          <li>Built interactive dashboards with Power BI using Google Sheets data</li>
+          <li>Set up Power Automate flows for automated stakeholder alerts</li>
+          <li>Implemented row-level security for access control</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="org">
+      <img src="images/lti-logo.png" alt="LTI Logo" class="logo">
+      <div>
+        <strong>Larsen & Toubro Infotech (May 2019 – Feb 2022)</strong>
+        <ul>
+          <li>Developed reports and dashboards for sales and logistics insights</li>
+          <li>Performed deep-dive ticket analysis using MySQL and Excel</li>
+          <li>Automated reporting workflows to save 10+ hours/week</li>
+        </ul>
+      </div>
+    </div>
+
     <h2>Education</h2>
-    <p>Vellore Institute of Technology, Chennai – Bachelor’s Degree</p>
+    <div class="org">
+      <img src="images/vit-logo.png" alt="VIT Logo" class="logo">
+      <div>
+        <strong>Vellore Institute of Technology, Chennai</strong>
+        <p>Bachelor's Degree</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
